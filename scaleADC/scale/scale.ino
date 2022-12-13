@@ -216,7 +216,7 @@ void loop() {
 }
 
 void calibrate() {
-
+  lcd.clear();
   // calibration happens serial monitor side and the serial
   // messages should guide user for calibration with all the
   // necessary details needed for proper functionality.
